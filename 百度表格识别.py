@@ -7,7 +7,7 @@ def printlist(result_list, n):
             print((n * "\t" + "[", i, "]"))
 
 
-def printdic(result_dic):
+def printdic(result_dic):#结果输出函数
     for k, v in list(result_dic.items()):
         n = -1
         if isinstance(v, dict):
